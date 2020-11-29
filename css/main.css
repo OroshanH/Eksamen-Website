@@ -1,5 +1,4 @@
 
-
 *{
   margin: 0;
   padding: 0;
@@ -33,7 +32,6 @@ body, html {
   color: white;
 }
 
-
 #navbar .logo{
   height: 50px;
   margin-left: 3%;
@@ -52,11 +50,13 @@ body, html {
   display: flex;
   align-items: center;
 }
+
 .footer p{
 font-size: 30px;
 color: white;
 flex: 1;
 }
+
 .footer a{
   text-decoration: none;
   color: white;
@@ -64,10 +64,10 @@ flex: 1;
   flex: 1;
   font-weight: bold;
 }
+
 .footer img{
 flex: 1;
 width: 250px;
-
 }
 
 /*ALLE SIDER*/
@@ -91,7 +91,6 @@ width: 250px;
   position: relative;
   background-color: #111111;
   border-bottom: #1a1a1a solid 50px;
-
 }
 
 .sideTre{
@@ -108,19 +107,21 @@ width: 250px;
 
 
 /*CONENT SIDE 1*/
+
 .content{
   width: 100%;
   height: 100%;
 }
+
 .content h1{
   font-size: 30px;
   color: white;
 }
+
 .content p{
   margin: auto;
   margin-top: 5%;
   color: white;
-  
 }
 .content img{
   margin-top: 200px;
@@ -148,16 +149,18 @@ width: 250px;
   width: 100%;
   height: 100%;
 }
+
 .content2 h1{
   font-size: 30px;
   color: white;
 }
+
 .content2 p{
   margin: auto;
   margin-top: 5%;
   color: white;
-  
 }
+
 .content2 img{
   margin-top: 200px;
   margin-left: 20%;
@@ -174,18 +177,17 @@ width: 250px;
   text-align: center;
 }
 
-
 /*CONTENT SIDE 3*/
 .content3{
   width: 100%;
   height: 100%;
 }
+
 #container{
   height: 50%;
   width: 55%;
   margin-left: 3%;
   transform: translateY(30%);
-
 }
 
 #map2{
@@ -205,6 +207,7 @@ width: 250px;
   text-align: center;
   color: white;
 }
+
 .infoTekst3 p{
   margin-top: 5%;
 }
@@ -215,8 +218,8 @@ width: 250px;
   width: 100%;
   border: solid 10px #8f0200;
   border-radius: 2%;
-
 }
+
 .pointerEn{
   width: 8%;
   position: fixed;
@@ -225,6 +228,7 @@ width: 250px;
   height: 12%;
   cursor: pointer;
 }
+
 .pointerTo{
  width: 15%;
  position: fixed;
@@ -232,7 +236,6 @@ width: 250px;
  left: 17%;
  height: 38%;
  cursor: pointer;
-
 }
 
 .pointerTre{
@@ -243,6 +246,7 @@ width: 250px;
   height: 25%;
   cursor: pointer;
 }
+
 .pointerFire{
   width: 8%;
   position: fixed;
@@ -256,6 +260,7 @@ figcaption{
   color: white;
   font-size: 14px;
 }
+
 .iranTxt,.kongoTxt,.indiaTxt,.brasilTxt{
   display: none;
   position: fixed;
@@ -328,16 +333,18 @@ figcaption{
   display: none;
   outline: none;
 }
+
 #overskrift{
   color: white;
   font-size: 30px;
   font-weight: bold;
 }
+
 #txt{
   color: white;
   font-size: 18px;
-
 }
+
 #iran{
   width: 8%;
   position: sticky;
@@ -348,6 +355,7 @@ figcaption{
   opacity: 0;
   display: none;
 }
+
 #india{
   width: 8%;
   position: sticky;
@@ -358,6 +366,7 @@ figcaption{
   opacity: 0;
   display: none;
 }
+
 #kongo{
   width: 8%;
   position: sticky;
@@ -368,6 +377,7 @@ figcaption{
   opacity: 0;
   display: none;
 }
+
 #brasil{
   width: 15%;
   position: sticky;
@@ -379,9 +389,7 @@ figcaption{
   display: none;
 }
 
-
 /*RESPONSIVE*/
-
 
 @media screen and (max-width: 1500px){
   .iranTxt,.kongoTxt,.indiaTxt,.brasilTxt{

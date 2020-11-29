@@ -1,5 +1,4 @@
 
-
 *{
     margin: 0;
     padding: 0;
@@ -12,8 +11,6 @@
     margin: 0;
     background-color: #1a1a1a;
   }
-
-
   
   #navbar {
     background-color:#1a1a1a;
@@ -40,7 +37,6 @@
     margin-left: 3%;
   }
 
-  
   .footer{
     width: 100%;
     height: 300px;
@@ -64,8 +60,6 @@
   margin-top: 30px;
   }
 
-
-  
   /*ALLE SIDER*/
   .sideEn{
     width: 95%;
@@ -108,8 +102,6 @@
     font-size: 20px;
   }
   
-
- 
   #sourcesTo,#sourcesEn{
     width: 1000px;
     position: relative;
@@ -119,7 +111,6 @@
     background-color: #1a1a1a;
     text-align: center;
   } 
-
 
   #sourcesEn h4,#sourcesTo h4{
     color: white;
@@ -167,6 +158,7 @@
     padding-right: 30px;
     margin-top: -60px;
   }
+
   #sourcesBilde3 img{
     width: 200px;
     float: right;
@@ -174,22 +166,29 @@
     margin-top: -30px;
     border: solid 2px white;
   }
+
   #sourcesBilde4 img{
     width: 200px;
     float: right;
     padding-right: 30px;
     margin-top: -30px;
-  } #sourcesBilde5 img{
+  } 
+  
+  #sourcesBilde5 img{
     width: 200px;
     float: right;
     padding-right: 30px;
     margin-top: -30px;
-  } #sourcesBilde6 img{
+  } 
+  
+  #sourcesBilde6 img{
     width: 200px;
     float: right;
     padding-right: 30px;
     margin-top: -30px;
-  } #sourcesBilde7 img{
+  }
+  
+  #sourcesBilde7 img{
     width: 200px;
     float: right;
     padding-right: 30px;
@@ -201,38 +200,37 @@
     font-size: 20px;
     margin-left: 110px;
   }
+
   #sourcesBilde2 a{
     color: white;
     font-size: 20px;
     margin-left: 10px;
   }
+
   #sourcesBilde3 p{
     color: white;
     font-size: 20px;
     margin-left: 220px;
   }
+
   #sourcesBilde4 a,#sourcesBilde5 a,#sourcesBilde6 a,#sourcesBilde7 a{
     color: white;
     font-size: 20px;
     margin-left: 250px;
   }
 
-
   @media screen and (max-width: 1500px){
     #sourcesBilde1,#sourcesBilde2,#sourcesBilde3,#sourcesBilde4,#sourcesBilde5,#sourcesBilde6,#sourcesBilde7{
       width: 800px;
-      
     }
     #sourcesTo,#sourcesEn{
       width: 800px;
       
     } 
-  
   }
   @media screen and (max-width: 840px){
     #sourcesBilde1,#sourcesBilde2,#sourcesBilde3,#sourcesBilde4,#sourcesBilde5,#sourcesBilde6,#sourcesBilde7{
       width: 600px;
-      
     }
     #sourcesTo,#sourcesEn{
       width: 600px;

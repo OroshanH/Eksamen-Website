@@ -104,15 +104,14 @@ backBtn.onclick = function (){
 }
  
 reddbarnaB.onclick = function(){
-  location.href='https://www.reddbarna.no/' 
- 
+  window.open('https://www.reddbarna.no/')
 }
 unhcrL.onclick = function(){
-  location.href='https://www.unhcr.org/' 
+  window.open('https://www.unhcr.org/')
 }
 unicefL.onclick = function(){
-  location.href='https://www.unicef.no/' 
+  window.open('https://www.unicef.no/')
 }
 eqL.onclick = function(){
-  location.href='https://www.equalrights.org/' 
+  window.open('https://www.equalrights.org/')
 }
