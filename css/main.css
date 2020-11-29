@@ -720,7 +720,7 @@ figcaption{
 
 /*MOBILE*/
 
-@media screen and (max-width: 376px){
+@media screen and (max-width: 421px){
   .content p,.content2 p,.content3 p{
    font-size: 11px;
   }
