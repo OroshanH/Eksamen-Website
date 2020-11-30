@@ -50,14 +50,14 @@
     align-items: center;
   }
   .footer p{
-  font-size: 30px;
+  font-size: 20px;
   color: white;
   margin-top: 20px;
   }
 
   .footer img{
-  width: 250px;
-  margin-top: 30px;
+  width: 200px;
+  margin-top: 100px;
   }
 
   /*ALLE SIDER*/
@@ -287,12 +287,12 @@
       height: 100px;
     }
     .footer p{
-      font-size: 20px;
       margin-top: 5px;
+      font-size: 12px;
     }
     .footer img{
-      width: 150px;
-      margin-top: 5px;
+      width: 120px;
+      margin-top: 10px;
     }
    
   }
@@ -380,8 +380,12 @@
   }
  
   .footer p{
-    font-size: 15px;
+    font-size: 10px;
     margin-top: 5px;
+  }
+  .footer img{
+    width: 100px;
+
   }
 
   }
