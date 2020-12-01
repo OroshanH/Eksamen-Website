@@ -681,6 +681,9 @@ figcaption{
   top: 28%;
   height: 15%;
 }
+.footer img{
+  width: 150px;
+}
 }
 @media screen and (max-width: 550px){
   .pointerEn{

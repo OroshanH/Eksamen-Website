@@ -1,21 +1,14 @@
 
-
-
-
-
-
-var prevScrollpos = window.pageYOffset;
+var scrollEn = window.pageYOffset;
 window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
+  var scrollTo = window.pageYOffset;
+  if (scrollEn > scrollTo) {
     document.getElementById("navbar").style.top = "0";
   } else {
     document.getElementById("navbar").style.top = "-200px";
   }
-  prevScrollpos = currentScrollPos;
+  scrollEn = scrollTo;
 }
-
-
 
 
 var landInfo = document.getElementById("landInfo");
